@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.VNChannels"
+       name="Vietnamese Channels"
+       version="1.0.8"
+       provider-name="VietTVpad">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+            library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Vietnamese Channels</summary>
+    <description>Vietnamese Channels with EPG</description>
+    <platform>all</platform>
+  </extension>
+</addon>
